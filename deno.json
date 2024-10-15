@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  },
+  "imports": {
+    "@helpr/express": "jsr:@helpr/express@^0.1.1",
+    "express": "npm:express@^4.21.1",
+    "sqlite3": "npm:sqlite3@^5.1.7"
+  }
+}
